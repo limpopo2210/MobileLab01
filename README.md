@@ -26,3 +26,16 @@
 Скріни можна подивитися на лінком
 https://www.dropbox.com/sh/fl8b09wrm99n2dl/AAAfw8xBqMotcSAfPEMFiDUaa?dl=0
 Ті студенти, які мають Mac/iOS можуть виконувати подібні кроки для Xсode.
+
+
+Індивідуальні завдання:
+1. Basic Activity
+2. Empty Activity
+3. Bottom Navigation Activity
+4. Fullscreen Activity
+5. Master/Detail Flow
+6. Navigation Drawer Activity
+7. Google Maps Activity
+8. Login Activity
+9. Scrolling Activity
+10. Tabbed Activity
