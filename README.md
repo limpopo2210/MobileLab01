@@ -29,7 +29,7 @@ https://www.dropbox.com/sh/fl8b09wrm99n2dl/AAAfw8xBqMotcSAfPEMFiDUaa?dl=0
 Ті студенти, які мають Mac/iOS можуть виконувати подібні кроки для Xсode.
 
 
-Індивідуальні завдання:
+Індивідуальні завдання (вікно Choose your project):
 1. Basic Activity
 2. Empty Activity
 3. Bottom Navigation Activity
