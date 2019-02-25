@@ -6,15 +6,15 @@
 1. Вивчити команди системи контролю версій git (див. [Basic Git commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html) )
 1. Зареєструватися на GitHub.
 1. Встановити git кліент на вибір: SourceTree, TortoiseGit, SmartGit або інший.
-1. Створити новий проект для Android чи iOS згідно або склонувати проект-приклад згідно до індивідуального завдання (див. нижче)
-1. Імпортувати проект Universal Music Player
+1. Створити новий проект для Android чи iOS або склонувати проект-приклад згідно до індивідуального завдання (див. нижче)
 1. Розібратися зі структурою проекту
 1. Розібратися зі структурою файлу AndroidManifest.xml
 1. Запустити проект на емуляторі
 1. Під’єднати мобільний телефон з ОС “Android” за допомогою USB і увімкнути відлагодження через USB (ADB)
 1. Запустити проект на телефоні
 1. Налаштувати запуск тестів. Створити хибний тест. Запустити і пересвідчитися, що хибний тест не пройшов
-1. Знайти основну діяльність (.ui.MusicPlayerActivity), перейти на неї
+1. Знайти основну діяльність (), перейти на неї
+1. Вивчити роботу команди [ADB](https://developer.android.com/studio/command-line/adb)
 1. Перейти на клас BaseActivity і встановити Breakpoint на стрічці LogHelper.d(TAG, "Activity onCreate");
 1. Запустити проект в режимі відлагодження, розібратися з панеллю відлагодження
 1. Знайти, де знаходиться програма adb (під Linux/Mac команда find ~/Library/Android/ -name adb), та встановити режим виведення логів VERBOSE для uamp_BaseActivity (<шлях до adb>/adb shell setprop log.tag.uamp_BaseActivity VERBOSE)
