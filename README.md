@@ -13,11 +13,12 @@
 1. Під’єднати мобільний телефон з ОС “Android” за допомогою USB і увімкнути відлагодження через USB (ADB)
 1. Запустити проект на телефоні
 1. Налаштувати запуск тестів. Створити хибний тест. Запустити і пересвідчитися, що хибний тест не пройшов
-1. Знайти основну діяльність (), перейти на неї
+1. Знайти основну діяльність (MainActivity), перейти на неї
 1. Вивчити роботу команди [ADB](https://developer.android.com/studio/command-line/adb)
-1. Перейти на клас BaseActivity і встановити Breakpoint на стрічці LogHelper.d(TAG, "Activity onCreate");
+1. Вивчити клас [Log](https://developer.android.com/reference/android/util/Log) для виводу відлагоджувальних повідомлень 
+1. Перейти на клас MainActivity, знайти метод onCreate, додати лог Log.d(TAG, "Activity onCreate"), поставити Breakpoint на цьому методі.
 1. Запустити проект в режимі відлагодження, розібратися з панеллю відлагодження
-1. Знайти, де знаходиться програма adb (під Linux/Mac команда find ~/Library/Android/ -name adb), та встановити режим виведення логів VERBOSE для uamp_BaseActivity (<шлях до adb>/adb shell setprop log.tag.uamp_BaseActivity VERBOSE)
+1. * Знайти, де знаходиться програма adb (під Linux/Mac команда find ~/Library/Android/ -name adb), та встановити режим виведення логів VERBOSE для MainActivity (<шлях до adb>/adb shell setprop log.tag.MainActivity VERBOSE)
 1. Перейти в Android Monitor →  LogCat, Відфільтрувати журнал по рядку “Activity ”
 1. Перезапустити прогаму
 1. Перейти в LogCat, дослідити, у які стани переходять класи діяльностей програми (Activity) при перемиканні на інші програми
