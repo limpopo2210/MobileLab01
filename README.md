@@ -82,7 +82,6 @@ https://www.dropbox.com/sh/fl8b09wrm99n2dl/AAAfw8xBqMotcSAfPEMFiDUaa?dl=0
 ![](img/im36.png)
 ![](img/im37.png)
 ![](img/im38.png)
-![](img/im39.png)
 ![](img/im40.png)
 ![](img/im41.png)
 ![](img/im42.png)
